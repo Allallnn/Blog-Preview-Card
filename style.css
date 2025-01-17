@@ -10,22 +10,28 @@
   --White: hsl(0, 0%, 100%);
   --Gray-1: hsl(0, 0%, 42%);
   --Gray-2: hsl(0, 0%, 7%);
-  --ff-Figtree: "Figtree" , "Sans seriff";
+  --ff-Figtree: "Figtree", "Sans seriff";
 }
 
 body {
   background-color: var(--Yellow);
 }
 #img-div {
+  width: 20rem;
+  height: fit-content;
 }
-#img {
-  width: 15rem;
+#img-1{
+  margin: 0.75rem;
+  border-radius: 2rem;
+  height: 10rem;
+  width: 17rem;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: start;
+ 
 }
 .section-1 {
-    font-family: var(--ff-Figtree);
+  font-family: var(--ff-Figtree);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -36,20 +42,41 @@ body {
   border: 1px solid black;
   width: 20rem;
 }
-#span-1{
-    margin: 0.75rem;
-    padding: 0.3rem;
-    border-radius: 5px;
-    background-color: var(--Yellow);
+#span-1 {
+  font-size: 12px;
+  font-weight: 800;
+  margin: 0.75rem;
+  padding: 0.3rem;
+  border-radius: 5px;
+  background-color: var(--Yellow);
 }
-.section-1 h1{
-    font-size: 20px;
-    padding: 0.75rem;
+.section-1 h1 {
+  font-size: 20px;
+  margin: 0.75rem;
+  font-weight: 800;
 }
-.section-1 p{
-    
-padding-left: 0.75px;
+p {
+  font-weight: 500;
+  padding-left: 0.75px;
 }
-#p-1{
-    color: var(--Gray-2);
+#p-1 {
+  margin: 0 0.75rem;
+  font-size: 12px;
+  color: var(--Gray-2);
+}
+#p-2 {
+  margin: 0 0.75rem;
+  color: var(--Gray-1);
+  font-size: 15px;
+}
+#img-2{
+
+}
+#span-2{
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+font-size: 12px;
+font-weight: 800;
 }
