@@ -12,23 +12,40 @@
   --Gray-2: hsl(0, 0%, 7%);
   --ff-Figtree: "Figtree", "Sans seriff";
 }
-
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
 body {
   background-color: var(--Yellow);
 }
-#img-div {
-  width: 20rem;
+main{
+  border-radius: 1rem;
+  box-shadow: 0.5rem 0.5rem 0 rgb(0, 0, 0);
+}
+#img-div{
+  margin-top: 0.5rem;
+width: 20rem;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#img-div img {
+  width: 18rem;
   height: fit-content;
 }
-#img-1{
+#img-1 {
   margin: 0.75rem;
-  border-radius: 2rem;
+  border-radius: 1rem;
   height: 10rem;
   width: 17rem;
   display: flex;
   align-items: center;
   justify-content: start;
- 
 }
 .section-1 {
   font-family: var(--ff-Figtree);
@@ -67,19 +84,22 @@ p {
 #p-2 {
   margin: 0 0.75rem;
   color: var(--Gray-1);
-  font-size: 15px;
+  font-size: 13px;
 }
-#img-2{
-
-}
-#span-2{
-  height: 3rem;
+#span-2 {
+  margin: 1rem;
   display: flex;
   align-items: center;
   justify-content: start;
-font-size: 12px;
-font-weight: 800;
+  font-size: 12px;
+  font-weight: 800;
+
 }
-#div-2{
-  display: flex;
+#img-2 {
+  height: 2rem;
+}
+#span-2 p {
+  margin-left: 0.5rem;
+  font-family: var(--ff-Figtree);
+  font-weight: 800;
 }
